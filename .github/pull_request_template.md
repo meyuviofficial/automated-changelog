@@ -35,12 +35,22 @@ This pull request introduces/fixes a (new) process in the golden image build pro
 
 * Manual testing of the image build process is recommended.
 * (Optional) Define automated tests (e.g., unit tests, integration tests) to ensure image build consistency.
+* Please provide the link of the successful release. 
 
 **Review Points:**
 
 * Code clarity and maintainability of Terraform, Packer, and Ansible configurations.
 * Security considerations within the image build process and final image.
 * Documentation updates for clarity and ease of use by the target audience.
+
+**Checklist**
+
+Please make sure that all the checkboxes are ticked. 
+- [ ] I have mentioned all the list of changes including Terraform, Packer, Ansible etc. 
+- [ ] I have tested the changes using the feature branch
+- [ ] I have updated the documentation in the readme. 
+- [ ] I have added the appropriate label in the pull request. 
+- [ ] I have added the successful pipeline link 
 
 **Please review the changes and provide feedback.**
 
