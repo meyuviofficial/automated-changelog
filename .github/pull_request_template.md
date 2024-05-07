@@ -47,6 +47,7 @@ This pull request introduces/fixes a (new) process in the golden image build pro
 
 Please make sure that all the checkboxes are ticked. 
 - [ ] I have mentioned all the list of changes including Terraform, Packer, Ansible etc. 
+- [ ] I have added the necessary tests to make sure the code is tested (if applicable)
 - [ ] I have tested the changes using the feature branch
 - [ ] I have updated the documentation in the readme. 
 - [ ] I have added the appropriate label in the pull request. 
