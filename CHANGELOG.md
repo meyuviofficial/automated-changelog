@@ -1,4 +1,12 @@
 <a name="v0.0.1"></a>
+## [1.2.0](https://github.com/meyuviofficial/automated-changelog/compare/v1.1.0...v1.2.0) (2024-05-10)
+
+
+### Features
+
+* added the release please to gh workflow ([85ae8bc](https://github.com/meyuviofficial/automated-changelog/commit/85ae8bc298fbe91a307faeb8dce8043972147e6b))
+* added the utils function ([#10](https://github.com/meyuviofficial/automated-changelog/issues/10)) ([445adbd](https://github.com/meyuviofficial/automated-changelog/commit/445adbd8fb84f8f088db74cea561cb2efd54138e))
+
 ## [1.1.0](https://github.com/meyuviofficial/automated-changelog/compare/v1.0.0...v1.1.0) (2024-05-10)
 
 
