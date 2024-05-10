@@ -1,32 +1,36 @@
-name: Bump version
-
 on:
   push:
     branches:
       - main
 
+permissions:
+  contents: write
+  pull-requests: write
+
+
+name: release-please
+
 jobs:
-  bump-version:
+  release-please:
     runs-on: ubuntu-latest
-    name: "Bump version and create changelog with commitizen"
     steps:
-      - name: Check out
-        uses: actions/checkout@v4
+      - id: release
+        uses: google-github-actions/release-please-action@v4
         with:
-          fetch-depth: 0
-          token: "${{ secrets.GITHUB_TOKEN }}"
-      - name: Setup Golang
-        uses: actions/setup-go@v5
-        with:
-          go-version: 1.22
+          # this assumes that you have created a personal access token
+          # (PAT) and configured it as a GitHub action secret named
+          # `MY_RELEASE_PLEASE_TOKEN` (this secret name is not important).
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # this is a built-in strategy in release-please, see "Action Inputs"
+          # for more options
+          release-type: terraform-module
+          config-file: release-please-config.json
+          # optional. customize path to .release-please-manifest.json
+          manifest-file: .release-please-manifest.json
       
-      - name: Install git-chglog
+      # GitHub summary of the output of the release-please action
+      - id: github-summary
+        if: ${{ steps.release.outputs.release_created }}
         run: |
-          go install github.com/git-chglog/git-chglog/cmd/git-chglog@latest
-      
-      - name: Create changelog
-        run: |
-          git-chglog -o CHANGELOG.md
-          git add CHANGELOG.md
-          git commit -m "chore(changelog): update changelog"
-          git push
+          echo "Release created: ${{ steps.release.outputs.release_created }}"
+          echo "Release PR: ${{ steps.release.outputs.pr}}"
