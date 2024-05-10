@@ -1,4 +1,16 @@
 <a name="v0.0.1"></a>
+## [1.1.0](https://github.com/meyuviofficial/automated-changelog/compare/v1.0.0...v1.1.0) (2024-05-10)
+
+
+### Features
+
+* added the main function ([3455334](https://github.com/meyuviofficial/automated-changelog/commit/3455334287027f1c86810c2eed2ba00589b14ea1))
+
+
+### Bug Fixes
+
+* added the missing lines ([b3b370a](https://github.com/meyuviofficial/automated-changelog/commit/b3b370ae854b156161d10104318e857f5326e30f))
+
 ## [1.0.0](https://github.com/meyuviofficial/automated-changelog/compare/v0.1.0...v1.0.0) (2024-05-09)
 
 
