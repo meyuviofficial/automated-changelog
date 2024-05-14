@@ -1,8 +1,0 @@
-[tool.commitizen]
-name = "cz_customize"
-tag_format = "v$version"
-version_scheme = "semver"
-version_provider = "scm"
-update_changelog_on_bump = true
-major_version_zero = true
-cz_customize = {path = "cz_customize"}
