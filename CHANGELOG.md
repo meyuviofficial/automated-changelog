@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.0](https://github.com/meyuviofficial/automated-changelog/compare/v1.6.0...v1.7.0) (2024-05-15)
+
+
+### Features
+
+* changed the release type ([8245dc2](https://github.com/meyuviofficial/automated-changelog/commit/8245dc2f6496095f34b2fb0a832590493fcb8e9c))
+* Enable C feature ([#30](https://github.com/meyuviofficial/automated-changelog/issues/30)) ([35036e2](https://github.com/meyuviofficial/automated-changelog/commit/35036e2ae076c26301925d73fcab2f1209fdbd4c))
+
 ## [1.6.0](https://github.com/meyuviofficial/automated-changelog/compare/v1.5.0...v1.6.0) (2024-05-15)
 
 
