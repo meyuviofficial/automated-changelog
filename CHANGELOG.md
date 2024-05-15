@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/meyuviofficial/automated-changelog/compare/v1.4.0...v1.5.0) (2024-05-15)
+
+
+### Features
+
+* changed the changelog type ([1e5a6eb](https://github.com/meyuviofficial/automated-changelog/commit/1e5a6eb1ede2e3edf6fbdd2851e4ea82670ee00d))
+
 ## [1.4.0](https://github.com/meyuviofficial/automated-changelog/compare/v1.3.0...v1.4.0) (2024-05-15)
 
 
