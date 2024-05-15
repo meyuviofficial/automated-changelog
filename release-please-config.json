@@ -2,12 +2,12 @@
   "packages": {
     ".": {
       "changelog-path": "CHANGELOG.md",
-      "release-type": "terraform-module",
+      "release-type": "simple",
       "bump-minor-pre-major": false,
       "bump-patch-for-minor-pre-major": false,
       "draft": false,
       "prerelease": false,
-      "changelog-type": "github",
+      "changelog-type": "default",
       "include-v-in-tag": true
     }
   },
