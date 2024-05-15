@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/meyuviofficial/automated-changelog/compare/v1.5.0...v1.6.0) (2024-05-15)
+
+
+### Features
+
+* testing github changelog ([#27](https://github.com/meyuviofficial/automated-changelog/issues/27)) ([f5e81f1](https://github.com/meyuviofficial/automated-changelog/commit/f5e81f1593f2088dd3eb98e182fa40ba91691bf4))
+
 ## [1.5.0](https://github.com/meyuviofficial/automated-changelog/compare/v1.4.0...v1.5.0) (2024-05-15)
 
 
