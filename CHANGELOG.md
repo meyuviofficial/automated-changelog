@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/meyuviofficial/automated-changelog/compare/v1.3.0...v1.4.0) (2024-05-15)
+
+
+### Features
+
+* Enablement of feature A  ([#23](https://github.com/meyuviofficial/automated-changelog/issues/23)) ([237aa2b](https://github.com/meyuviofficial/automated-changelog/commit/237aa2bda0fd1774027efa05e658a73f67844b9e))
+
 ## [1.3.0](https://github.com/meyuviofficial/automated-changelog/compare/v1.2.1...v1.3.0) (2024-05-15)
 
 
