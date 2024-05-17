@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.8.0](https://github.com/meyuviofficial/automated-changelog/compare/v1.7.0...v1.8.0) (2024-05-17)
+
+
+### Features
+
+* added feature X ([645db1c](https://github.com/meyuviofficial/automated-changelog/commit/645db1cc2aea7a20f76c5734112b57565d884dbe))
+* added feature Y ([8cca604](https://github.com/meyuviofficial/automated-changelog/commit/8cca6045abf88284832ec8a44a4115099789de26))
+* added features X & Y ([#31](https://github.com/meyuviofficial/automated-changelog/issues/31)) ([1bde77b](https://github.com/meyuviofficial/automated-changelog/commit/1bde77b9e5b0cbb932e6b7f9c4ea93c5cf4d953c))
+
+
+### Bug Fixes
+
+* fixed feature A & B ([400e576](https://github.com/meyuviofficial/automated-changelog/commit/400e576e4084f352a8038c756ee158ed54f5fabc))
+
 ## [1.7.0](https://github.com/meyuviofficial/automated-changelog/compare/v1.6.0...v1.7.0) (2024-05-15)
 
 
