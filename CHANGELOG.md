@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.0.0 (2024-05-17)
+
+## What's Changed
+* feat: enable feature Z by @meyuviofficial in https://github.com/meyuviofficial/automated-changelog/pull/36
+
+
+**Full Changelog**: https://github.com/meyuviofficial/automated-changelog/compare/v1.9.0...v2.0.0
+
 ## [1.9.0](https://github.com/meyuviofficial/automated-changelog/compare/v1.8.0...v1.9.0) (2024-05-17)
 
 
