@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.0](https://github.com/meyuviofficial/automated-changelog/compare/v1.8.0...v1.9.0) (2024-05-17)
+
+
+### Features
+
+* Enable A & B ([#33](https://github.com/meyuviofficial/automated-changelog/issues/33)) ([5059522](https://github.com/meyuviofficial/automated-changelog/commit/50595228bce4914c423f11a1f123ded65679a41c))
+
 ## [1.8.0](https://github.com/meyuviofficial/automated-changelog/compare/v1.7.0...v1.8.0) (2024-05-17)
 
 
