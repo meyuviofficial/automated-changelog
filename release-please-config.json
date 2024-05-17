@@ -7,8 +7,9 @@
       "bump-patch-for-minor-pre-major": false,
       "draft": false,
       "prerelease": false,
-      "changelog-type": "default",
-      "include-v-in-tag": true
+      "changelog-type": "github",
+      "include-v-in-tag": true,
+      "pull-request-header": "Added a new release :tada:"
     }
   },
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
