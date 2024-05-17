@@ -1,5 +1,14 @@
 # Changelog
 
+## 2.1.0 (2024-05-17)
+
+## What's Changed
+* feat: Add X, Y & Z by @meyuviofficial in https://github.com/meyuviofficial/automated-changelog/pull/37
+* Remove Y & Z  by @meyuviofficial in https://github.com/meyuviofficial/automated-changelog/pull/39
+
+
+**Full Changelog**: https://github.com/meyuviofficial/automated-changelog/compare/v2.0.0...v2.1.0
+
 ## 2.0.0 (2024-05-17)
 
 ## What's Changed
