@@ -45,3 +45,6 @@ jobs:
         id: release-pr
         run: |
           release-please release-pr --repo-url=${{ github.repository }} --token ${{ secrets.GITHUB_TOKEN }} --dry-run ${{ github.event.inputs.dry_run }}  
+      
+      - name: Display Output
+        run: echo "${{ steps.release-pr.outputs }}"
