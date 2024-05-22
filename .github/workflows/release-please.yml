@@ -1,3 +1,5 @@
+name: Release-Please Workflow
+run-name: Create a release PR @ ${{ github.ref }} by ${{ github.actor }} 
 on:
   push:
     branches:
