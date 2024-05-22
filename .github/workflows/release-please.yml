@@ -2,6 +2,19 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
+    inputs:
+      github_release:
+        description: 'Create a GitHub release'
+        required: false
+        default: true
+        type: boolean
+      
+      dry_run: 
+        description: 'Run the action without creating a PR'
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -14,22 +27,20 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-      - id: release
-        uses: googleapis/release-please-action@v4
+      - id: checkout
+        uses: actions/checkout@v4
         with:
-          # this assumes that you have created a personal access token
-          # (PAT) and configured it as a GitHub action secret named
-          # `MY_RELEASE_PLEASE_TOKEN` (this secret name is not important).
-          token: ${{ secrets.GITHUB_TOKEN }}
-          # this is a built-in strategy in release-please, see "Action Inputs"
-          # for more options
-          config-file: release-please-config.json
-          # optional. customize path to .release-please-manifest.json
-          manifest-file: .release-please-manifest.json
+          ref: ${{ github.event.before }}
+          fetch-depth: 0
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: latest
       
-      # GitHub summary of the output of the release-please action
-      - id: github-summary
-        if: ${{ steps.release.outputs.release_created }}
+      - name: Install release-please CLI 
+        run: npm install -g release-please
+
+      - name: Create a Release PR 
+        id: release-pr
         run: |
-          echo "Release created: ${{ steps.release.outputs.release_created }}"
-          echo "Release PR: ${{ steps.release.outputs.pr}}"
+          release-please release-pr --repo-url=${{ github.repository }} --token ${{ secrets.GITHUB_TOKEN }} --dry-run ${{ github.event.inputs.dry_run }}  
