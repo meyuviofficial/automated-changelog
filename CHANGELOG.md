@@ -1,5 +1,14 @@
 # Changelog
 
+## 2.2.0 (2024-05-27)
+
+## What's Changed
+* Add feature A & B  by @meyuviofficial in https://github.com/meyuviofficial/automated-changelog/pull/40
+* Feature/add xyz by @meyuviofficial in https://github.com/meyuviofficial/automated-changelog/pull/41
+
+
+**Full Changelog**: https://github.com/meyuviofficial/automated-changelog/compare/v2.1.0...v2.2.0
+
 ## 2.1.0 (2024-05-17)
 
 ## What's Changed
