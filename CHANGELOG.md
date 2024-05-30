@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.3.0 (2024-05-30)
+
+## What's Changed
+* Feature/test default message by @meyuviofficial in https://github.com/meyuviofficial/automated-changelog/pull/43
+
+
+**Full Changelog**: https://github.com/meyuviofficial/automated-changelog/compare/v2.2.0...v2.3.0
+
 ## 2.2.0 (2024-05-27)
 
 ## What's Changed
