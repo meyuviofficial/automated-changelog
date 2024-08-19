@@ -1,5 +1,14 @@
 # Changelog
 
+## 2.4.1 (2024-08-19)
+
+## What's Changed
+* refactor: Update main.txt by @meyuviofficial in https://github.com/meyuviofficial/automated-changelog/pull/48
+* feat: Update main.txt by @meyuviofficial in https://github.com/meyuviofficial/automated-changelog/pull/50
+
+
+**Full Changelog**: https://github.com/meyuviofficial/automated-changelog/compare/v2.4.0...v2.4.1
+
 ## 2.4.0 (2024-08-19)
 
 ## What's Changed
